@@ -1,4 +1,4 @@
-# Homelab Media Center
+# Emby Homelab Media Center
 
 Hi! This is my take at implementing a fully automated media center solution based on the *Arr family (https://wiki.servarr.com/). \
 The aim of the implementation is to have all the applications running behind Gluetun connected to the Surfshark VPN. \
