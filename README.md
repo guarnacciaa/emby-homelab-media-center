@@ -235,4 +235,4 @@ Below my Docker Compose file used to start up the whole solution:
 
 The Gluetun section provides the syntax to configure Surfshark using either Wireguard or OpenVPN. For more information you can check the official Gluetun documentation at: https://github.com/qdm12/gluetun-wiki/blob/main/setup/providers/surfshark.md \
 I initially based the implementation on Wireguard, but, for some still not clear reasons, qbittorrent tends to hang all the ongoing connections and it is not able to recover the downloads when that happens unless the whole stack gets restarted.  It seems other people are experiencing the same, and the workaround to that is to switch over to the OpenVPN protocol. \
-I am currently using Emby as media handler and qbittorrent as Torrent client, but I left Plex, Overseerr and Deluge configurations in there for your own convenience. \
+I am currently using Emby as media handler and qbittorrent as Torrent client, but I left Plex, Overseerr and Deluge configurations in there for your own convenience.
